@@ -1,7 +1,7 @@
 # SIVERT V2X simulation framework (Unity3D part)
 
 
-`SIVERT framework` implements a bi-directionally coupled simulations using [Veneris](http://pcacribia.upct.es/veneris/) and [NS3](https://www.nsnam.org) simulator, introducing the spatially-consistent Geometry based Stochastic Channel Models (GSCM) with account for antenna patterns using Effective Anerture Distribution Function (EADF). The LTE-V2X module is reused from the implementation kindly shared by [Eckerman et.al.](https://github.com/FabianEckermann/ns-3_c-v2x). Coupling is done via bi-directional API using the TCP/IP sockets between simulators using [ZeroMQ](https://zeromq.org). Veneris is extensively extended with GSCM channel modelling. API data structures are implemented using [google flatbuffer] https://google.github.io/flatbuffers/ cross platform serialization library.  
+`SIVERT framework` implements a bi-directionally coupled simulations using [Veneris](http://pcacribia.upct.es/veneris/) [[1]](#1) and [NS3](https://www.nsnam.org) simulator, introducing the spatially-consistent Geometry based Stochastic Channel Models (GSCM) with account for antenna patterns using Effective Anerture Distribution Function (EADF). The LTE-V2X module is reused from the implementation kindly shared by [Eckerman et.al.](https://github.com/FabianEckermann/ns-3_c-v2x) [[2]](#2). Coupling is done via bi-directional API using the TCP/IP sockets between simulators using [ZeroMQ](https://zeromq.org). Veneris is extensively extended with GSCM channel modelling. API data structures are implemented using [google flatbuffer](https://google.github.io/flatbuffers/) cross platform serialization library.  
 
 
 ## Installation
@@ -39,3 +39,11 @@ By default SIVERT will use the NS3 binary located in the `Packages/SIVERT_NS3_bi
 ## ManagerGSCM
 
 The GSCM parameters can be modified in this prefab. The main one is an antenna pattern chosen on the vehicle. Currently there are several exemplary simple patterns (Isotropic and several differently oriented dipoles) - the patterns diagrams plots in horizontal plane can be found in `Antennas` folder in the root of the project. User can substitute these pattern with any other pattern implemented in the EADF format adding it to the `ChannelGenManager` script using it as a boilerplate.
+
+## References
+
+<a id="1">[1]</a>
+Esteban Egea-Lopez, Fernando Losilla, Juan Pascual-Garcia and Jose Maria Molina-Garcia-Pardo, "Vehicular Network Simulation with Realistic Physics", IEEE Access, 2019, DOI:10.1109/ACCESS.2019.2908651
+
+<a id="2">[2]</a>
+F. Eckermann, M. Kahlert, C. Wietfeld, "Performance Analysis of C-V2X Mode 4 Communication Introducing an Open-Source C-V2X Simulator", In 2019 IEEE 90th Vehicular Technology Conference (VTC-Fall), Honolulu, Hawaii, USA, September 2019.

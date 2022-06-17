@@ -1,0 +1,68 @@
+building.yes 373580049
+135745394-PB
+135745381-TJ
+building.yes 349828085
+310121724-TB3
+310121774-TBP
+building.yes 349829154
+113522001-S?rredsg?rden
+building.yes 349824635
+building.yes 135745357
+Floor
+135745355-TG
+310121779-TU
+building.yes 349826989
+building.yes 349827061
+135745359-TD
+building.yes 135745377
+building.yes 373580288
+building.yes 373580290
+building.yes 373580287
+225429952-VKS
+135745396-TF
+building.yes 373579927
+310121764-T?
+building.yes 349829167
+135745379-TB5
+building.yes 349829202
+building.yes 373580286
+building.yes 135745392
+building.manufacture 349826915
+building.yes 117934045
+113522005-Volvo-City
+building.yes 135745389
+building.yes 373580289
+building.yes 135745376
+135745388-TE
+building.yes 373580050
+135745384-PB
+building.yes 135745386
+building.yes 135745398
+building.yes 135745372
+building.yes 349829201
+building.yes 349829168
+113522000-BV
+135745408-TC
+building.yes 349827154
+135745378-TAT 1
+building.yes 373580291
+113522121-T?
+135745374-PA
+310121715-TB
+135745367-Volvo Cars Visitor Centre
+135745364-TB2
+688622351-TM
+688622846-TX-Porten
+building.yes 135745380
+building.yes 373580048
+building.yes 135745356
+310124213-TK-Port
+building.yes 349827467
+building.yes 135745401
+135745403-TA
+building.yes 349827369
+building.yes 688618783
+135745358-TJA
+688625117-Volvo Bil
+135745361-TB4
+building.yes 310121762

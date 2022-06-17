@@ -1,0 +1,4 @@
+SUMO Network generated from /Users/nlyamin/WRK/Simulation/SIVERT_Veneris_Unity/Assets/Scenes/maps/Lund_intersection/osm.net.xml.Roads=13.Traffic lights=0.Intersections=6
+SumoVehicleManager generated from . 3 vehicles scheduled. Time to build=0.007 s
+:Active=3:maxActive=3:inserted=3:arrived=0:total=3:avNumberActive=1.16666666666667:insertionQueue=0:avInsertionQueue=NaN:removedAndReinserted=0
+SimulationManager::ENDSIMULATION. Time=0;SimulationTime/RealTime=0

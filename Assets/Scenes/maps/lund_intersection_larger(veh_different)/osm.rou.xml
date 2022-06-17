@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Thu Jul  1 18:32:09 2021 by SUMO duarouter Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml"/>
+        <route-files value="osm.passenger.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.passenger.rou.xml"/>
+        <alternatives-output value="osm.passenger.rou.alt.xml"/>
+    </output>
+
+    <processing>
+        <ignore-errors value="true"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="200.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="passenger" speedFactor="normc(1.00,0.10,0.20,2.00)" vClass="passenger"/>
+    <vehicle id="veh1" type="passenger" depart="93.41" departLane="best">
+        <route edges="335284124#0 335284124#1 335284125 94474601 -148739737 232272068#0 148739738"/>
+    </vehicle>
+    <vehicle id="veh2" type="passenger" depart="186.82" departLane="best">
+        <route edges="-232249912#1 -94474599 -94474601 -335284125 -13711680#1 -13711680#0 -13711679#1 -148738628#1"/>
+    </vehicle>
+</routes>

@@ -1,0 +1,50 @@
+{
+    "_declaration": {
+        "_attributes": {
+            "version": "1.0",
+            "encoding": "UTF-8"
+        }
+    },
+    "_comment": " generated on Thu Jul  1 18:32:09 2021 by SUMO duarouter Version 0.32.0\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n\n<configuration xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:noNamespaceSchemaLocation=\"http://sumo.dlr.de/xsd/duarouterConfiguration.xsd\">\n\n    <input>\n        <net-file value=\"osm.net.xml\"/>\n        <route-files value=\"osm.passenger.trips.xml\"/>\n    </input>\n\n    <output>\n        <output-file value=\"osm.passenger.rou.xml\"/>\n        <alternatives-output value=\"osm.passenger.rou.alt.xml\"/>\n    </output>\n\n    <processing>\n        <ignore-errors value=\"true\"/>\n    </processing>\n\n    <time>\n        <begin value=\"0\"/>\n        <end value=\"200.0\"/>\n    </time>\n\n    <report>\n        <no-warnings value=\"true\"/>\n        <no-step-log value=\"true\"/>\n    </report>\n\n</configuration>\n",
+    "routes": {
+        "_attributes": {
+            "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "xsi:noNamespaceSchemaLocation": "http://sumo.dlr.de/xsd/routes_file.xsd"
+        },
+        "vType": {
+            "_attributes": {
+                "id": "passenger",
+                "speedFactor": "normc(1.00,0.10,0.20,2.00)",
+                "vClass": "passenger"
+            }
+        },
+        "vehicle": [
+            {
+                "_attributes": {
+                    "id": "veh1",
+                    "type": "passenger",
+                    "depart": "93.41",
+                    "departLane": "best"
+                },
+                "route": {
+                    "_attributes": {
+                        "edges": "335284124#0 335284124#1 335284125 94474601 -148739737 232272068#0 148739738"
+                    }
+                }
+            },
+            {
+                "_attributes": {
+                    "id": "veh2",
+                    "type": "passenger",
+                    "depart": "186.82",
+                    "departLane": "best"
+                },
+                "route": {
+                    "_attributes": {
+                        "edges": "-232249912#1 -94474599 -94474601 -335284125 -13711680#1 -13711680#0 -13711679#1 -148738628#1"
+                    }
+                }
+            }
+        ]
+    }
+}

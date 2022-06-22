@@ -48,5 +48,5 @@ Esteban Egea-Lopez, Fernando Losilla, Juan Pascual-Garcia and Jose Maria Molina-
 <a id="2">[2]</a>
 F. Eckermann, M. Kahlert, C. Wietfeld, "Performance Analysis of C-V2X Mode 4 Communication Introducing an Open-Source C-V2X Simulator", In 2019 IEEE 90th Vehicular Technology Conference (VTC-Fall), Honolulu, Hawaii, USA, September 2019.
 
-<a if="3">[3]</a>
+<a id="3">[3]</a>
 A. Fedorov, N. Lyamin and F. Tufvesson, "Implementation of spatially consistent channel models for real-time full stack C-ITS V2X simulations," 2021 55th Asilomar Conference on Signals, Systems, and Computers, 2021, pp. 67-71, doi: 10.1109/IEEECONF53345.2021.9723279.

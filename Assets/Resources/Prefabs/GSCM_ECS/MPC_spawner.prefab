@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1411064735967493801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1411064735967493802}
+  - component: {fileID: 2119066189774798785}
+  m_Layer: 0
+  m_Name: MPC_spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1411064735967493802
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411064735967493801}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.2918472, y: -45.93609, z: 1.621027}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2119066189774798785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411064735967493801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 041ad8e9235444840a931c7f8e3471a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bottom_left_corner: {x: 0, y: 0, z: 0}
+  area_height: 300
+  area_width: 500
+  chiW1: 0.044
+  chiW2: 0.066
+  chiW3: 0.088
+  chiD: 0.061
+  DrawMPCs: 0
+  MPC1_Prefab: {fileID: 2863241428559084695, guid: 36f9434b2d205499983d8a30cc2894b5,
+    type: 3}
+  MPC2_Prefab: {fileID: 5252942457972857741, guid: edf13ae61547341b0946ddb31e081306,
+    type: 3}
+  MPC3_Prefab: {fileID: 7814392311819623059, guid: a71a7e0bd16004113b104f681c8a2fc8,
+    type: 3}
+  DMC_Prefab: {fileID: 4140799477300138361, guid: c8407de5077ae4527ae1f3db604937e0,
+    type: 3}
+  MPC1_possiblepositionList: []
+  MPC2_possiblepositionList: []
+  MPC3_possiblepositionList: []
+  DMC_possiblepositionList: []

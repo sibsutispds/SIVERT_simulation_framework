@@ -1,0 +1,271 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &397672521461187226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 397672521461187220}
+  - component: {fileID: 397672521461187221}
+  m_Layer: 0
+  m_Name: AllVehiclesStatusTwoAntennas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &397672521461187220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397672521461187226}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1433864705116800997}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &397672521461187221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397672521461187226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bca8f5f0b3f4024ad5f4675840f458, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carsArray: []
+  destinations: []
+  allVehicles: []
+  GSCMAntennas: []
+--- !u!1 &397672522667003612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 397672522667003614}
+  - component: {fileID: 397672522667003615}
+  m_Layer: 0
+  m_Name: ChannelGenManagerTwoAntennas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &397672522667003614
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397672522667003612}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1433864705116800997}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &397672522667003615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397672522667003612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb85e7df92cdc43eca4aa48afc9de7e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RoofRadiationPetternFile: /Users/nlyamin/WRK/Simulation/SIVERT_Unity3D_git/DipoleEADF_Pow2.csv
+  FrontRadiationPetternFile: /Users/nlyamin/WRK/Simulation/SIVERT_Unity3D_git/FlippedDipoleEADF_Pow2.csv
+  PrintRSS: 1
+  RadiationPetternFile: /Users/nlyamin/WRK/Simulation/SIVERT_Unity3D_git/HelixEADF.csv
+  TxPowerInMilliWatts: 200
+  SpeedofLight: 299792450
+  CarrierFrequency: 5.9e+9
+  tfTime: {fileID: 0}
+  tfFreq: {fileID: 0}
+  SpectrumGainToNS3: []
+  DrawingOverlaps: 0
+  DrawingPath1: 1
+  DrawingPath2: 1
+  DrawingPath3: 1
+  allVehicles: []
+  NumOfRBinSubchannel: 10
+  NumLteV2Xsubchannles: 3
+  NActiveSubcarriers: 0
+  SubframePower: 0
+--- !u!1 &1433864704961054355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1433864704961054365}
+  - component: {fileID: 1433864704961054364}
+  m_Layer: 0
+  m_Name: AllVehiclesStatus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1433864704961054365
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433864704961054355}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1433864705116800997}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1433864704961054364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433864704961054355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fb674bdc8ee349488f2107c1f6415fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carsArray: []
+  destinations: []
+  allVehicles: []
+  GSCMAntennas: []
+--- !u!1 &1433864705083679349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1433864705083679351}
+  - component: {fileID: 1433864705083679350}
+  m_Layer: 0
+  m_Name: ChannelGenManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1433864705083679351
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433864705083679349}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1433864705116800997}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1433864705083679350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433864705083679349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca60930469fb445b2b1471727579c7d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrintRSS: 0
+  RadiationPetternFile: /Users/nlyamin/WRK/Simulation/SIVERT_Unity3D_git/IsotropicEADF.csv
+  TxPowerInMilliWatts: 200
+  SpeedofLight: 299792450
+  CarrierFrequency: 5.9e+9
+  tfTime: {fileID: 0}
+  tfFreq: {fileID: 0}
+  SpectrumGainToNS3: []
+  DrawingOverlaps: 1
+  DrawingPath1: 1
+  DrawingPath2: 1
+  DrawingPath3: 1
+  allVehicles: []
+  NumOfRBinSubchannel: 10
+  NumLteV2Xsubchannles: 3
+  NActiveSubcarriers: 12
+  SubframePower: 0
+--- !u!1 &1433864705116801019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1433864705116800997}
+  - component: {fileID: 397672521767190745}
+  m_Layer: 0
+  m_Name: ManagerGSCM
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1433864705116800997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433864705116801019}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 167.29884, y: -38.73449, z: 135.05699}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1433864705083679351}
+  - {fileID: 1433864704961054365}
+  - {fileID: 397672522667003614}
+  - {fileID: 397672521461187220}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &397672521767190745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433864705116801019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1c27bdeadaa4c00a38a4280d0667bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimStart: 3
+  ChannelGenManager: {fileID: 1433864705083679349}
+  ChannelGenManagerTwoAntennas: {fileID: 397672522667003612}
+  AllVehiclesStatus: {fileID: 1433864704961054355}
+  AllVehiclesStatusTwoAntennas: {fileID: 397672521461187226}
+  TwoAntennas: 0

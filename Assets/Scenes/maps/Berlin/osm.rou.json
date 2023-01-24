@@ -1,0 +1,64 @@
+{
+    "_declaration": {
+        "_attributes": {
+            "version": "1.0",
+            "encoding": "UTF-8"
+        }
+    },
+    "_comment": " generated on Thu Jan 12 20:55:38 2023 by SUMO duarouter Version 0.32.0\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n\n<configuration xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:noNamespaceSchemaLocation=\"http://sumo.dlr.de/xsd/duarouterConfiguration.xsd\">\n\n    <input>\n        <net-file value=\"osm.net.xml\"/>\n        <route-files value=\"osm.passenger.trips.xml\"/>\n    </input>\n\n    <output>\n        <output-file value=\"osm.passenger.rou.xml\"/>\n        <alternatives-output value=\"osm.passenger.rou.alt.xml\"/>\n    </output>\n\n    <processing>\n        <ignore-errors value=\"true\"/>\n    </processing>\n\n    <time>\n        <begin value=\"0\"/>\n        <end value=\"3600.0\"/>\n    </time>\n\n    <report>\n        <no-warnings value=\"true\"/>\n        <no-step-log value=\"true\"/>\n    </report>\n\n</configuration>\n",
+    "routes": {
+        "_attributes": {
+            "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "xsi:noNamespaceSchemaLocation": "http://sumo.dlr.de/xsd/routes_file.xsd"
+        },
+        "vType": {
+            "_attributes": {
+                "id": "passenger",
+                "speedFactor": "normc(1.00,0.10,0.20,2.00)",
+                "vClass": "passenger"
+            }
+        },
+        "vehicle": [
+            {
+                "_attributes": {
+                    "id": "veh0",
+                    "type": "passenger",
+                    "depart": "0.00",
+                    "departLane": "best"
+                },
+                "route": {
+                    "_attributes": {
+                        "edges": "-109612314#3 -109612314#1 1056634162#0 1056634162#2 1056634162#3 32909623#0"
+                    }
+                }
+            },
+            {
+                "_attributes": {
+                    "id": "veh1",
+                    "type": "passenger",
+                    "depart": "1",
+                    "departLane": "best"
+                },
+                "route": {
+                    "_attributes": {
+                        "edges": "1094052276#0 1094052276#3 1056634162#0 1056634162#2 1056634162#3"
+                    }
+                }
+            },
+            {
+                "_attributes": {
+                    "id": "veh2",
+                    "type": "passenger",
+                    "depart": "5",
+                    "departLane": "best"
+                },
+                "route": {
+                    "_attributes": {
+                        "edges": "1094052276#0 1094052276#3 1056634162#0 1056634162#2 1056634162#3"
+                    }
+                }
+            }
+
+        ]
+    }
+}

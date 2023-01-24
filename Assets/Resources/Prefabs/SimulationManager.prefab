@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1761214398184530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4601070587355838}
+  - component: {fileID: 114147086728321980}
+  - component: {fileID: 114875598816816248}
+  - component: {fileID: 114038970156761202}
+  - component: {fileID: 114710631983387780}
+  m_Layer: 0
+  m_Name: SimulationManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4601070587355838
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761214398184530}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 890.8978, y: 0.34960938, z: 1077.1256}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114147086728321980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761214398184530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14df4dab2e10ee0468640976f5945046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  configurationFile: veneris.ini
+  outputPath: results
+  LoggedVehicleId: -1
+  endSimulationTime: -1
+  takeSnapshots: 0
+  snapShotFrequency: 5
+  uiManager: {fileID: 0}
+  vehicleManager: {fileID: 0}
+  fpsCounter: {fileID: 0}
+  timeScaleControl: {fileID: 0}
+  selectedVehicle: {fileID: 0}
+  endSimulation: 0
+  logInterval: 20
+  cameraHeight: 70
+--- !u!114 &114875598816816248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761214398184530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f92b598fe7c0a4cba8a50922e31d06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  applyControl: 0
+  windowSize: 10
+  decreaseFactor: 2
+  increaseTerm: 0.05
+  decreaseFPSThreshold: 20
+  fuRatePercentageThreshold: 0.9
+  windowFpsAverage:
+    sumValues: 0
+    sumSquaredValues: 0
+    samples: 0
+  totalFpsAverage:
+    sumValues: 0
+    sumSquaredValues: 0
+    samples: 0
+  timeScaleAverage:
+    sumValues: 0
+    sumSquaredValues: 0
+    samples: 0
+  windowFURateAverage:
+    sumValues: 0
+    sumSquaredValues: 0
+    samples: 0
+  totalFURateAverage:
+    sumValues: 0
+    sumSquaredValues: 0
+    samples: 0
+  counter: 0
+  fasterThanRealTime: 1
+--- !u!114 &114038970156761202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761214398184530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7beef19aabec324ba8fc297595be8d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateInterval: 0.5
+  fps: 0
+  fpsFU: 0
+--- !u!114 &114710631983387780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761214398184530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a953b44ad2d3db941b2805126777e1da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  simManager: {fileID: 0}
